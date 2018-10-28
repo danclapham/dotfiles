@@ -25,6 +25,7 @@ alias ga="git add -A"
 alias gs="git status"
 alias gm="git commit -m"
 alias gp="git push"
+alias gpm="git push -u origin master"
 
 #-----------------------------------------
 # Colours
