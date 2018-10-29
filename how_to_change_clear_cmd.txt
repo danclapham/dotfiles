@@ -1,0 +1,6 @@
+echo $TERM
+infocmp -x $TERM > tempfile
+look for E3=\E[3J, => remove
+sudo tic -x tempfile
+remove tempfile
+clear should not remove scrollbuffer
